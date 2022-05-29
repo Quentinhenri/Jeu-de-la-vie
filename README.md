@@ -18,7 +18,7 @@
 
 **Objectif du projet :** 
 
-    1. Comprendre le fonctionnement du jeu de la vie et s'approprier les fonctions conçu à l'avance. 
+    1. Comprendre le fonctionnement du jeu de la vie et s'approprier les fonctions conçues à l'avance. 
 
     2. Créer une animation à l'aide des fonctions préétablies et des règles du jeu de la vie. 
 
@@ -34,12 +34,12 @@
 
 ## Description précise du programme / Difficultés rencontrées 
 
-*Les fichiers présents sur GitHub représentent l'ensemble de notre travail. Pour une meilleure compréhension, nous avons décidé de classer les fichiers en deux catgéorie :*
+*Les fichiers présents sur GitHub représentent l'ensemble de notre travail. Pour une meilleure compréhension, nous avons décidé de classer les fichiers en deux catgéories :*
 
     1- Figures codées 
     2- Fonctions utiles
 
-> Nota : Le dépôt contient un PowerPoint dans lequel nous avons identifié une vingtaine de couleur présente dans Python. Il y a également un fichier texte avec le script initiale qui, étant trop complexe, a été redimensionné.  
+> Nota : Le dépôt contient un PowerPoint dans lequel nous avons identifié une vingtaine de couleur présentent dans Python. Il y a également un fichier texte avec le script initiale qui, étant trop complexe, a été redimensionné.  
 
 ## Détail précis des modifications des différents fichiers 
 
@@ -60,7 +60,7 @@
     8. jdlv_vue_fromUi.py : Aucun ajout.
 ##
     9. jdlv_my_tools.py : 
-- Import des différents fichiers comprenant les images codés. 
+- Import des différents fichiers comprenant les images codées. 
 - Ajout de 5 fonctions permenttant d'animer le projet sur la grille PyQt5. 
 
 ##
@@ -74,7 +74,7 @@
 
 - Remplacement de la couleur "red" dans la fonction revive_case (case) par "grey"
     
-- Ajout de la fonction play_music () ainsi que du module Pygame. Cette fonction permet d'initiliser la musique qui sera ensuite traité dans le fichier jdlv_controleur.py 
+- Ajout de la fonction play_music () ainsi que du module Pygame. Cette fonction permet d'initialiser la musique qui sera ensuite traitée dans le fichier jdlv_controleur.py 
 
 ##
 
@@ -93,7 +93,7 @@
 ##
     17. plan_france_global : Fichier avec la fonction permettant d'afficher la France en entier 
 ##
-    18. plan_moto_position1 : Fichier avec la focntion correspondant à la moto avec la fumée collé au pot d'échappement 
+    18. plan_moto_position1 : Fichier avec la focntion correspondant à la moto avec la fumée collée au pot d'échappement 
 ##
     19. plan_moto_position2 : Fichier avec la focntion correspondant à la moto avec la fumée détachée du pot d'échappement
 ##
@@ -122,14 +122,14 @@ pygame.mixer.init()
 pygame.mixer.music.load('videoplayback.ogg')
 - La ligne de code permet de charger la musique à partir du fichier ogg. 
 
-> Nota : Le fichier, tout d'abord télécharger en MP3 a été converti en ogg pour être lu sur Spyder. Nous avons utilisé le fichier sous son format MP3 pour identifier les différents temps de la musique dans Audacity. 
+> Nota : Le fichier, tout d'abord téléchargé en MP3 a été converti en ogg pour être lu sur Spyder. Nous avons utilisé le fichier sous son format MP3 pour identifier les différents temps de la musique dans Audacity. 
 
 ##
 
 ### Fonctions permettant d'animer la grille 
 
 elif compteur <= 1 :
-- Si le compteur est inferieur à 1, c'est-à-dire si il y a eu qu'une seul grille d'initialiser précédement, alors 
+- Si le compteur est inferieur à 1, c'est-à-dire si il y a eu qu'une seul grille d'initialisée précédemment, alors 
 
 print ("COMPTEUR % 11  is  56")
 - Permet de vérifier que l'animation de la grille fonctionne correctement. 
@@ -145,6 +145,6 @@ time.sleep (3.08)
 
 ### Difficultés rencontrées lors du projet : 
 
-Le codage des différentes figures s'est avéré très chronophage. Nosu avons redimensionné nos ambitions au cours de notre projet. Notre idée initiale étant trop complexe à réaliser, nous avons choisi de présenter nos différents monuments puis de mettre en place le jeu de la vie. 
+Le codage des différentes figures s'est avéré très chronophage. Nous avons redimensionné nos ambitions au cours de notre projet. Notre idée initiale étant trop complexe à réaliser, nous avons choisi de présenter nos différents monuments puis de mettre en place le jeu de la vie. 
 
 *Auteurs :* Lucas Guillen et Quentin Henri 1-01 
